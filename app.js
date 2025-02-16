@@ -85,7 +85,6 @@ function showQuestion(){
 
 function resetState(){
     nextBtnEL.style.display = "none"
-
     while(answerEL.firstChild){
         answerEL.removeChild(answerEL.firstChild)
     }
