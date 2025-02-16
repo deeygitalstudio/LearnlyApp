@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Quiz</title>
+    <link rel="stylesheet" href="dragable.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <h1>Drag the correct answer into the box!</h2>
+        
+        <div id="dropZone" class="question-box" ondragover="allowDrop(event)" ondrop="drop(event)">
+          
+        </div>
+
+        <div class="options">
+            <div class="option" draggable="true" ondragstart="drag(event)" id="answer1"></div>
+            <div class="option" draggable="true" ondragstart="drag(event)" id="answer2"></div>
+            <div class="option" draggable="true" ondragstart="drag(event)" id="answer3"></div>
+        </div>
+        <h5 id="score"></h5>
+    </div>
+
+  <a href="/index.html" class=" drag-btn">Multichoice Quiz</a>
+
+    <script src="dragable.js"></script>
+</body>
+</html>
