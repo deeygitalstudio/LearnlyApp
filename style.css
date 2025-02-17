@@ -97,3 +97,11 @@ body{
 .incorrect{
 background: #ff9393
 }
+@media screen and (max-width: 400px) {
+    .btn:hover:not([disabled]){
+       .btn:hover:not([disabled]){
+       background: transparent;
+
+}
+}
+}
